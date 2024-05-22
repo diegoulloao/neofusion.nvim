@@ -7,11 +7,12 @@
 </p>
 
 <p align="center">
-    Neofusion theme compatible with treesitter inspired in ellisonleao/gruvbox.nvim
+    Neofusion theme compatible with treesitter inspired by ellisonleao/gruvbox.nvim
 </p>
 
 <p align="center">
-    <!-- <img src="" /> -->
+    <img src="https://i.ibb.co/TYzmPyx/neofusion-nvim.png" alt="neofusion" />
+    <!-- <img src="https://i.ibb.co/4msvtPk/neofusion-nvim.png" alt="neofusion" /> -->
 </p>
 
 # 1. Prerequisites 📦
@@ -38,7 +39,7 @@ use { "diegoulloao/neofusion.nvim" }
 Plug 'diegoulloao/neofusion.nvim'
 ```
 
-# 3. Usage ✨
+# 3. Basic usage ✨
 
 `init.vim`
 
@@ -87,7 +88,20 @@ require("neofusion").setup({
 vim.cmd([[ colorscheme neofusion ]])
 ```
 
-**`IMPORTANT`**: Make sure to call `setup()` **before** the colorscheme command
+### Lualine
+
+You can apply the built-in lualine theme like so:
+
+```lua
+require("lualine").setup({
+  options = {
+    theme = require("neofusion.lualine"),
+    -- rest,
+  }
+})
+```
+
+**`IMPORTANT`** Make sure to call `setup()` **before** the colorscheme command.
 
 # 5. Overriding 👾
 
@@ -99,6 +113,7 @@ You can customize the palette colors like:
 require("neofusion").setup({
   palette_overrides = {
     bright_green = "#ec30ac",
+    -- rest,
   }
 })
 
@@ -112,7 +127,8 @@ For more flexibility, you can override a specific highlight group:
 ```lua
 require("neofusion").setup({
   overrides = {
-    SignColumn = {bg = "#ec30ac"}
+    SignColumn = { bg = "#ec30ac" },
+    -- rest,
   }
 })
 
@@ -126,13 +142,14 @@ require("neofusion").setup({
   overrides = {
     ["@lsp.type.method"] = { bg = "#ec30ac" },
     ["@comment.lua"] = { bg = "#000000" },
+    -- rest,
   }
 })
 
 vim.cmd([[ colorscheme neofusion ]])
 ```
 
-Available values can be seen [here](<https://neovim.io/doc/user/builtin.html#synIDattr()>)
+For more details check [here](<https://neovim.io/doc/user/builtin.html#synIDattr()>)
 
 ---
 
