@@ -160,3 +160,6 @@ Get the nice looking from the captures following the [wiki tutorial](https://git
 ### `neofusion.iterm`
 
 iTerm2 theme version. [Check it out!](https://github.com/diegoulloao/neofusion.iterm)
+
+### `neofusion-wallpapers`
+Beautiful wallpapers that match your setup. [Check available resolutions](https://github.com/diegoulloao/neofusion-wallpapers?tab=readme-ov-file)
