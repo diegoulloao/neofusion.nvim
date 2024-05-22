@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    Neofusion theme compatible with treesitter inspired on ellisonleao/gruvbox.nvim
+    Neofusion theme compatible with treesitter inspired in ellisonleao/gruvbox.nvim
 </p>
 
 <p align="center">
@@ -40,14 +40,14 @@ Plug 'diegoulloao/neofusion.nvim'
 
 # 3. Usage ✨
 
-Inside `init.vim`
+`init.vim`
 
 ```vim
 set background=dark
 colorscheme neofusion
 ```
 
-Inside `init.lua`
+`init.lua`
 
 ```lua
 vim.o.background = "dark"

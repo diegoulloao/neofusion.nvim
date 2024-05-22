@@ -63,46 +63,7 @@ Neofusion.config = {
   transparent_mode = false,
 }
 
-Neofusion.palette = {
-  dark0 = "#06101e",
-  dark1 = "#031B26",
-  dark2 = "#052839",
-  dark3 = "#06364B",
-  dark4 = "#08435E",
-  light0 = "#66def9",
-  light1 = "#66def9",
-  light2 = "#008DA3",
-  light3 = "#006A7A",
-  light4 = "#004752",
-  bright_red = "#fd5e3a",
-  bright_green = "#35b5ff",
-  bright_yellow = "#fd5e3a",
-  bright_blue = "#e2d9c5",
-  bright_purple = "#fa7a61",
-  bright_aqua = "#e2d9c5",
-  bright_orange = "#E74A23",
-  neutral_red = "#fd5e3a",
-  neutral_green = "#35b5ff",
-  neutral_yellow = "#fd5e3a",
-  neutral_blue = "#22536f",
-  neutral_purple = "#ec30ac",
-  neutral_aqua = "#66def9",
-  neutral_orange = "#d65d0e",
-  faded_red = "#fd5e3a",
-  faded_green = "#989634",
-  faded_yellow = "#b57614",
-  faded_blue = "#076678",
-  faded_purple = "#8f3f71",
-  faded_aqua = "#427b58",
-  faded_orange = "#af3a03",
-  dark_red = "#722529",
-  light_red = "#fc9487",
-  dark_green = "#4c4b1a",
-  light_green = "#98971a",
-  dark_aqua = "#49503b",
-  light_aqua = "#e8e5b5",
-  gray = "#22536f",
-}
+Neofusion.palette = require("neofusion.palette")
 
 local function get_colors()
   local palette = Neofusion.palette
@@ -202,19 +163,19 @@ local function get_groups()
     NeofusionOrange = { fg = colors.orange },
     NeofusionOrangeBold = { fg = colors.orange, bold = config.bold },
     NeofusionRedSign = config.transparent_mode and { fg = colors.red, reverse = config.invert_signs }
-      or { fg = colors.red, bg = colors.bg0, reverse = config.invert_signs },
+        or { fg = colors.red, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionGreenSign = config.transparent_mode and { fg = colors.green, reverse = config.invert_signs }
-      or { fg = colors.green, bg = colors.bg0, reverse = config.invert_signs },
+        or { fg = colors.green, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionYellowSign = config.transparent_mode and { fg = colors.yellow, reverse = config.invert_signs }
-      or { fg = colors.yellow, bg = colors.bg0, reverse = config.invert_signs },
+        or { fg = colors.yellow, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionBlueSign = config.transparent_mode and { fg = colors.blue, reverse = config.invert_signs }
-      or { fg = colors.blue, bg = colors.bg0, reverse = config.invert_signs },
+        or { fg = colors.blue, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionPurpleSign = config.transparent_mode and { fg = colors.purple, reverse = config.invert_signs }
-      or { fg = colors.purple, bg = colors.bg0, reverse = config.invert_signs },
+        or { fg = colors.purple, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionAquaSign = config.transparent_mode and { fg = colors.aqua, reverse = config.invert_signs }
-      or { fg = colors.aqua, bg = colors.bg0, reverse = config.invert_signs },
+        or { fg = colors.aqua, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionOrangeSign = config.transparent_mode and { fg = colors.orange, reverse = config.invert_signs }
-      or { fg = colors.orange, bg = colors.bg0, reverse = config.invert_signs },
+        or { fg = colors.orange, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionRedUnderline = { undercurl = config.undercurl, sp = colors.red },
     NeofusionGreenUnderline = { undercurl = config.undercurl, sp = colors.green },
     NeofusionYellowUnderline = { undercurl = config.undercurl, sp = colors.yellow },
