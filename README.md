@@ -151,6 +151,12 @@ vim.cmd([[ colorscheme neofusion ]])
 
 For more details check [here](<https://neovim.io/doc/user/builtin.html#synIDattr()>)
 
----
+# 6. Advanced 🔥
 
-**diegoulloao · 2024**
+Get the nice looking from the captures following the [wiki tutorial](https://github.com/diegoulloao/neofusion.nvim/wiki/Advanced-customization)
+
+# 7. Projects ⭐
+
+### `neofusion.iterm`
+
+iTerm2 theme version. [Check it out!](https://github.com/diegoulloao/neofusion.iterm)
