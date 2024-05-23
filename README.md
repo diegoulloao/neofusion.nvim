@@ -1,6 +1,6 @@
 <div align="center">
     <h1>
-        <img src="https://i.ibb.co/87DhmZx/logo.jpg" width="100" />
+        <img src="https://i.ibb.co/87DhmZx/logo.jpg" width="110" />
         <br />neofusion.nvim
     </h1>
 </div>
