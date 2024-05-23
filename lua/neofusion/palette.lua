@@ -15,7 +15,7 @@ return {
   bright_blue = "#e2d9c5",
   bright_purple = "#fa7a61",
   bright_aqua = "#e2d9c5",
-  bright_orange = "#E74A23",
+  bright_orange = "#fd5e3a",
   neutral_red = "#fd5e3a",
   neutral_green = "#35b5ff",
   neutral_yellow = "#fd5e3a",
