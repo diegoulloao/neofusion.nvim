@@ -1,5 +1,8 @@
 <div align="center">
-    <h1>neofusion.nvim</h1>
+    <h1>
+        <img src="https://i.ibb.co/87DhmZx/logo.jpg" width="100" />
+        <br />neofusion.nvim
+    </h1>
 </div>
 
 <p align="center"> 
