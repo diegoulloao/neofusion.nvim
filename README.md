@@ -153,7 +153,7 @@ For more details check [here](<https://neovim.io/doc/user/builtin.html#synIDattr
 
 # 6. Advanced 🔥
 
-Get the nice looking from the captures following the [wiki tutorial](https://github.com/diegoulloao/neofusion.nvim/wiki/Advanced-customization)
+Get the nice looking from the captures by following the [wiki tutorial](https://github.com/diegoulloao/neofusion.nvim/wiki/Advanced-customization)
 
 # 7. Projects ⭐
 
