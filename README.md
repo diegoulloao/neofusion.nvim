@@ -88,6 +88,8 @@ require("neofusion").setup({
 vim.cmd([[ colorscheme neofusion ]])
 ```
 
+**`IMPORTANT`** Make sure to call `setup()` **before** the colorscheme command.
+
 ### Lualine
 
 You can apply the built-in lualine theme like so:
@@ -100,8 +102,6 @@ require("lualine").setup({
   }
 })
 ```
-
-**`IMPORTANT`** Make sure to call `setup()` **before** the colorscheme command.
 
 # 5. Overriding 👾
 
