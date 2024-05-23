@@ -163,19 +163,19 @@ local function get_groups()
     NeofusionOrange = { fg = colors.orange },
     NeofusionOrangeBold = { fg = colors.orange, bold = config.bold },
     NeofusionRedSign = config.transparent_mode and { fg = colors.red, reverse = config.invert_signs }
-        or { fg = colors.red, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.red, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionGreenSign = config.transparent_mode and { fg = colors.green, reverse = config.invert_signs }
-        or { fg = colors.green, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.green, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionYellowSign = config.transparent_mode and { fg = colors.yellow, reverse = config.invert_signs }
-        or { fg = colors.yellow, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.yellow, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionBlueSign = config.transparent_mode and { fg = colors.blue, reverse = config.invert_signs }
-        or { fg = colors.blue, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.blue, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionPurpleSign = config.transparent_mode and { fg = colors.purple, reverse = config.invert_signs }
-        or { fg = colors.purple, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.purple, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionAquaSign = config.transparent_mode and { fg = colors.aqua, reverse = config.invert_signs }
-        or { fg = colors.aqua, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.aqua, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionOrangeSign = config.transparent_mode and { fg = colors.orange, reverse = config.invert_signs }
-        or { fg = colors.orange, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.orange, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionRedUnderline = { undercurl = config.undercurl, sp = colors.red },
     NeofusionGreenUnderline = { undercurl = config.undercurl, sp = colors.green },
     NeofusionYellowUnderline = { undercurl = config.undercurl, sp = colors.yellow },
@@ -210,8 +210,8 @@ local function get_groups()
     Underlined = { fg = colors.blue, underline = config.underline },
     StatusLine = { fg = colors.bg2, bg = colors.fg1, reverse = config.inverse },
     StatusLineNC = { fg = colors.bg1, bg = colors.fg4, reverse = config.inverse },
-    WinBar = { fg = colors.fg4, bg = colors.bg0 },
-    WinBarNC = { fg = colors.fg3, bg = colors.bg1 },
+    WinBar = config.transparent_mode and { fg = colors.fg4, bg = nil } or { fg = colors.fg4, bg = colors.bg0 },
+    WinBarNC = config.transparent_mode and { fg = colors.fg3, bg = nil } or { fg = colors.fg3, bg = colors.bg1 },
     WinSeparator = config.transparent_mode and { fg = colors.bg3, bg = nil } or { fg = colors.bg3, bg = colors.bg0 },
     WildMenu = { fg = colors.blue, bg = colors.bg2, bold = config.bold },
     Directory = { link = "NeofusionBlueBold" },
@@ -757,6 +757,7 @@ local function get_groups()
     LspSagaAutoPreview = { link = "NeofusionOrange" },
     TargetWord = { fg = colors.blue, bold = config.bold },
     FinderSeparator = { link = "NeofusionAqua" },
+    FidgetTask = { fg = colors.gray },
     LspSagaDefPreviewBorder = { link = "NeofusionBlue" },
     LspSagaHoverBorder = { link = "NeofusionOrange" },
     LspSagaRenameBorder = { link = "NeofusionBlue" },
@@ -804,6 +805,7 @@ local function get_groups()
     NotifyWARNBorder = { link = "NeofusionYellow" },
     NotifyWARNIcon = { link = "NeofusionYellow" },
     NotifyWARNTitle = { link = "NeofusionYellow" },
+    GitSignsCurrentLineBlame = { fg = colors.gray },
     IlluminatedWordText = { link = "LspReferenceText" },
     IlluminatedWordRead = { link = "LspReferenceRead" },
     IlluminatedWordWrite = { link = "LspReferenceWrite" },
