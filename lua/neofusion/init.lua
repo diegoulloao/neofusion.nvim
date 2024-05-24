@@ -163,19 +163,19 @@ local function get_groups()
     NeofusionOrange = { fg = colors.orange },
     NeofusionOrangeBold = { fg = colors.orange, bold = config.bold },
     NeofusionRedSign = config.transparent_mode and { fg = colors.red, reverse = config.invert_signs }
-        or { fg = colors.red, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.red, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionGreenSign = config.transparent_mode and { fg = colors.green, reverse = config.invert_signs }
-        or { fg = colors.green, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.green, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionYellowSign = config.transparent_mode and { fg = colors.yellow, reverse = config.invert_signs }
-        or { fg = colors.yellow, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.yellow, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionBlueSign = config.transparent_mode and { fg = colors.blue, reverse = config.invert_signs }
-        or { fg = colors.blue, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.blue, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionPurpleSign = config.transparent_mode and { fg = colors.purple, reverse = config.invert_signs }
-        or { fg = colors.purple, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.purple, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionAquaSign = config.transparent_mode and { fg = colors.aqua, reverse = config.invert_signs }
-        or { fg = colors.aqua, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.aqua, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionOrangeSign = config.transparent_mode and { fg = colors.orange, reverse = config.invert_signs }
-        or { fg = colors.orange, bg = colors.bg0, reverse = config.invert_signs },
+      or { fg = colors.orange, bg = colors.bg0, reverse = config.invert_signs },
     NeofusionRedUnderline = { undercurl = config.undercurl, sp = colors.red },
     NeofusionGreenUnderline = { undercurl = config.undercurl, sp = colors.green },
     NeofusionYellowUnderline = { undercurl = config.undercurl, sp = colors.yellow },
@@ -816,6 +816,13 @@ local function get_groups()
     TSRainbowBlue = { fg = colors.blue },
     TSRainbowViolet = { fg = colors.purple },
     TSRainbowCyan = { fg = colors.cyan },
+    RainbowDelimiterRed = { fg = colors.red },
+    RainbowDelimiterOrange = { fg = colors.orange },
+    RainbowDelimiterYellow = { fg = colors.yellow },
+    RainbowDelimiterGreen = { fg = colors.green },
+    RainbowDelimiterBlue = { fg = colors.blue },
+    RainbowDelimiterViolet = { fg = colors.purple },
+    RainbowDelimiterCyan = { fg = colors.cyan },
     DapBreakpointSymbol = { fg = colors.red, bg = colors.bg1 },
     DapStoppedSymbol = { fg = colors.green, bg = colors.bg1 },
     DapUIBreakpointsCurrentLine = { link = "NeofusionYellow" },
