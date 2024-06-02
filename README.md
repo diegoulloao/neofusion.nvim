@@ -164,5 +164,9 @@ Get the nice looking from the captures by following the [wiki tutorial](https://
 
 iTerm2 theme version. [Check it out!](https://github.com/diegoulloao/neofusion.iterm)
 
+### `neofusion.k9s`
+
+K9s theme version. [Check it out!](https://github.com/diegoulloao/neofusion.k9s)
+
 ### `neofusion-wallpapers`
 Beautiful wallpapers that match your setup. [Check available resolutions](https://github.com/diegoulloao/neofusion-wallpapers?tab=readme-ov-file)
