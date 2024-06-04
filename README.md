@@ -19,12 +19,12 @@
 
 <p align="center">
     <img src="https://i.ibb.co/TYzmPyx/neofusion-nvim.png" alt="neofusion" />
-    <a href="https://github.com/diegoulloao/neofusion.nvim/wiki/Showcase">Showcase</a>
+    👉 <a href="https://github.com/diegoulloao/neofusion.nvim/wiki/Showcase">Showcase</a> 👈
 </p>
 
 # 1. Prerequisites 📦
 
-Neovim 0.8.0+
+Neovim `0.8.0+`
 
 # 2. Installation ⚡️
 
