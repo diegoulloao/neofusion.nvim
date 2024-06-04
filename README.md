@@ -164,6 +164,10 @@ Get the nice looking from the captures by following the [wiki tutorial](https://
 
 iTerm2 theme version. [Check it out!](https://github.com/diegoulloao/neofusion.iterm)
 
+### `neofusion.bat`
+
+Bat theme version [Check it out!](https://github.com/diegoulloao/neofusion.bat/)
+
 ### `neofusion.k9s`
 
 K9s theme version. [Check it out!](https://github.com/diegoulloao/neofusion.k9s)
