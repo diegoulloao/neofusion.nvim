@@ -95,7 +95,8 @@ require("neofusion").setup({
 vim.cmd([[ colorscheme neofusion ]])
 ```
 
-**`IMPORTANT`** Make sure to call `setup()` **before** the colorscheme command.
+> [!IMPORTANT]
+> Make sure to call `setup()` **before** the colorscheme command
 
 ### Lualine
 
