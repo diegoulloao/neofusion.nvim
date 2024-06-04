@@ -1,3 +1,7 @@
+<p align="right">
+  <img src="https://img.shields.io/github/stars/diegoulloao/neofusion.nvim?color=ea6847&style=for-the-badge" />
+</p>
+
 <div align="center">
     <h1>
         <img src="https://i.ibb.co/87DhmZx/logo.jpg" width="110" />
