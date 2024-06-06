@@ -70,7 +70,7 @@ local function get_colors()
   local config = Neofusion.config
 
   for color, hex in pairs(config.palette_overrides) do
-    config[color] = hex
+    palette[color] = hex
   end
 
   local color_groups = {
