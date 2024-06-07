@@ -173,6 +173,9 @@ iTerm2 theme version. [Check it out!](https://github.com/diegoulloao/neofusion.i
 
 Alacritty theme version. [Check it out!](https://github.com/diegoulloao/neofusion.alacritty)
 
+### `neofusion.kitty`
+
+Kitty theme version. [Check it out!](https://github.com/diegoulloao/neofusion.kitty)
 
 ### `neofusion.bat`
 
