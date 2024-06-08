@@ -191,3 +191,13 @@ K9s theme version. [Check it out!](https://github.com/diegoulloao/neofusion.k9s)
 
 ### `neofusion-wallpapers`
 Beautiful wallpapers that match your setup. [Check available resolutions](https://github.com/diegoulloao/neofusion-wallpapers?tab=readme-ov-file)
+
+# Sponsor ❤️
+
+Check out our awesome sponsor!
+
+<div>
+  <a href="https://github.com/NeckBeardPrince" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/6558867" width="64" height="64" />
+  </a>
+</div>
