@@ -177,6 +177,10 @@ Alacritty theme version. [Check it out!](https://github.com/diegoulloao/neofusio
 
 Kitty theme version. [Check it out!](https://github.com/diegoulloao/neofusion.kitty)
 
+### `neofusion.wezterm`
+
+WezTerm theme version. [Check it out!](https://github.com/diegoulloao/neofusion.wezterm)
+
 ### `neofusion.winterm`
 
 Windows Terminal theme version. [Check it out!](https://github.com/diegoulloao/neofusion.winterm)
