@@ -163,7 +163,7 @@ For more details check [here](<https://neovim.io/doc/user/builtin.html#synIDattr
 
 Get the nice looking from the captures by following the [wiki tutorial](https://github.com/diegoulloao/neofusion.nvim/wiki/Advanced-customization)
 
-# 7. Projects ⭐
+# 7. Ports ⭐
 
 ### `neofusion.iterm`
 
@@ -176,6 +176,10 @@ Alacritty theme version. [Check it out!](https://github.com/diegoulloao/neofusio
 ### `neofusion.kitty`
 
 Kitty theme version. [Check it out!](https://github.com/diegoulloao/neofusion.kitty)
+
+### `neofusion.winterm`
+
+Windows Terminal theme version. [Check it out!](https://github.com/diegoulloao/neofusion.winterm)
 
 ### `neofusion.bat`
 
