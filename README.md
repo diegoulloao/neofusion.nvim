@@ -1,4 +1,5 @@
 <p align="right">
+  <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA" alt="sponsor" />
   <img src="https://img.shields.io/github/stars/diegoulloao/neofusion.nvim?color=ea6847&style=for-the-badge" />
 </p>
 
