@@ -1,0 +1,11 @@
+name: Purge Camo Images
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 30 15 * * 0-6
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: action-camo-purge
+        uses: kevincobain2000/action-camo-purge@v1
