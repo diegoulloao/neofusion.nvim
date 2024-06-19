@@ -202,14 +202,11 @@ K9s theme version. [Check it out!](https://github.com/diegoulloao/neofusion.k9s)
 Spotify Player (Terminal) theme version [Check it out!](https://github.com/diegoulloao/neofusion.sp/)
 
 ### `neofusion-wallpapers`
+
 Beautiful wallpapers that match your setup. [Check available resolutions](https://github.com/diegoulloao/neofusion-wallpapers?tab=readme-ov-file)
 
-# Sponsor ❤️
+# Sponsors ❤️
 
-Check out our awesome sponsor!
+Check out our awesome sponsors!
 
-<div>
-  <a href="https://github.com/NeckBeardPrince" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/6558867" width="64" height="64" />
-  </a>
-</div>
+<!-- sponsors --><a href="https://github.com/NeckBeardPrince"><img src="https://github.com/NeckBeardPrince.png" width="60px" alt="Adam Stracener" /></a><a href="https://github.com/drgfunk"><img src="https://github.com/drgfunk.png" width="60px" alt="" /></a><!-- sponsors -->
