@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '00 12 * * 1'
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
