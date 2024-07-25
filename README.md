@@ -202,6 +202,10 @@ K9s theme version. [Check it out!](https://github.com/diegoulloao/neofusion.k9s)
 
 Spotify Player (Terminal) theme version [Check it out!](https://github.com/diegoulloao/neofusion.sp/)
 
+### `neofusion.posting`
+
+Posting theme version. [Check it out!](https://github.com/diegoulloao/neofusion.posting)
+
 ### `neofusion-wallpapers`
 
 Beautiful wallpapers that match your setup. [Check available resolutions](https://github.com/diegoulloao/neofusion-wallpapers?tab=readme-ov-file)
