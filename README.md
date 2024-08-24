@@ -206,6 +206,10 @@ Spotify Player (Terminal) theme version [Check it out!](https://github.com/diego
 
 Posting theme version. [Check it out!](https://github.com/diegoulloao/neofusion.posting)
 
+### `neofusion.vscode`
+
+VS Code theme version [Check it out!](https://github.com/diegoulloao/neofusion.vscode/)
+
 ### `neofusion-wallpapers`
 
 Beautiful wallpapers that match your setup. [Check available resolutions](https://github.com/diegoulloao/neofusion-wallpapers?tab=readme-ov-file)
