@@ -218,4 +218,4 @@ Beautiful wallpapers that match your setup. [Check available resolutions](https:
 
 Check out our awesome sponsors!
 
-<!-- sponsors --><a href="https://github.com/NeckBeardPrince"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;6558867?u&#x3D;9959f72a9dcdedb43cb833e79e747ae3e727629d&amp;v&#x3D;4" width="60px" alt="Adam Stracener" /></a><a href="https://github.com/drgfunk"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;130787?u&#x3D;74403d72dc5ac5641e40e3a6bbeaa5f55d1d0229&amp;v&#x3D;4" width="60px" alt="" /></a><!-- sponsors -->
+<!-- sponsors --><a href="https://github.com/NeckBeardPrince"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;6558867?u&#x3D;9959f72a9dcdedb43cb833e79e747ae3e727629d&amp;v&#x3D;4" width="60px" alt="User avatar: Adam Stracener" /></a><a href="https://github.com/drgfunk"><img src="https:&#x2F;&#x2F;avatars.githubusercontent.com&#x2F;u&#x2F;130787?u&#x3D;74403d72dc5ac5641e40e3a6bbeaa5f55d1d0229&amp;v&#x3D;4" width="60px" alt="User avatar: " /></a><!-- sponsors -->
