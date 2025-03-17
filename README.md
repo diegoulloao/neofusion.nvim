@@ -218,4 +218,4 @@ Beautiful wallpapers that match your setup. [Check available resolutions](https:
 
 Check out our awesome sponsors!
 
-<!-- sponsors --><a href="https://github.com/drgfunk"><img src="https:&#x2F;&#x2F;github.com&#x2F;drgfunk.png" width="60px" alt="User avatar: " /></a><!-- sponsors -->
+<!-- sponsors --><!-- sponsors -->
