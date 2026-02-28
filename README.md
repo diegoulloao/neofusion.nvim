@@ -206,9 +206,17 @@ Spotify Player (Terminal) theme version [Check it out!](https://github.com/diego
 
 Posting theme version. [Check it out!](https://github.com/diegoulloao/neofusion.posting)
 
+### `neofusion.opencode`
+
+OpenCode theme version [Check it out!](https://github.com/diegoulloao/neofusion.opencode/)
+
 ### `neofusion.vscode`
 
 VS Code theme version [Check it out!](https://github.com/diegoulloao/neofusion.vscode/)
+
+### `neofusion-emacs` (third-party)
+
+Emacs theme version by [@konrad1977](https://github.com/konrad1977). [Check it out!](https://github.com/konrad1977/neofusion-emacs)
 
 ### `neofusion-wallpapers`
 
